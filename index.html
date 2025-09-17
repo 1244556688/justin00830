@@ -18,12 +18,18 @@
       查看作品
     </a>
   </div>
-<div class="buttons">
+
+  <div class="buttons mt-6 text-center">
     <!-- 進入展示頁面按鈕 -->
-    <button onclick="enterDisplay()">📂 進入展示頁面</button>
+    <button onclick="enterDisplay()" class="px-6 py-3 bg-green-500 rounded-xl hover:bg-green-700 transition">
+      📂 進入展示頁面
+    </button>
   </div>
-  <script src="script.js">
-     function enterDisplay() {
+
+  <script src="script.js"></script>
+  <script>
+    // 定義按鈕功能
+    function enterDisplay() {
       window.location.href = 'display.html';
     }
   </script>
