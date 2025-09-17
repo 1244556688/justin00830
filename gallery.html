@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>作品展示</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="p-6 text-center">
+    <h1 class="text-4xl font-bold mb-6">作品展示</h1>
+    
+    <!-- YouTube 影片 (直接換 ID 即可) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- 圖片展示 -->
+    <h2 class="text-2xl mt-10 mb-4">圖片集</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="images/img1.jpg" class="rounded-xl shadow-lg hover:scale-105 transform transition">
+      <img src="images/img2.jpg" class="rounded-xl shadow-lg hover:scale-105 transform transition">
+      <img src="images/img3.jpg" class="rounded-xl shadow-lg hover:scale-105 transform transition">
+      <img src="images/img4.jpg" class="rounded-xl shadow-lg hover:scale-105 transform transition">
+    </div>
+  </div>
+</body>
+</html>
